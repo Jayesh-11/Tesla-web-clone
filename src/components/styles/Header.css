@@ -2,36 +2,58 @@
   display: block;
   color: black;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 5%;
   z-index: 100;
-  position: absolute;
+  /* position: absolute; */
+  margin: 0;
+  position: fixed;
 }
-.Images_sec {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.Images_sec img {
-  width: 10vw;
-  height: 7.5vh;
-  margin-left: 10vw;
-  align-items: center;
-}
+
 .Button_sec {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  top: 0px;
+  height: 5%;
 }
 .Header div a button {
-  border-radius: 1rem;
+  border-radius: 0.4rem;
   background: none;
   border: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  font-family: monospace;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .Header div a button:hover {
-  background-color: rgba(100, 100, 100, 0.2);
+  background-color: rgba(212, 212, 212, 0.5);
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.Header_logo {
+  display: block;
+  max-width: 180px;
+  max-height: 35px;
+  width: auto;
+  height: auto;
+}
+.ham_button {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .Button_sec {
+    display: none;
+  }
+  .ham_button {
+    display: block;
+    font-size: 1.3rem;
+    padding-right: 1rem;
+  }
 }

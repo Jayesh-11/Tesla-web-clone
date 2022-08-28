@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### font-ref
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Sans+JP&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;

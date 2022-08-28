@@ -1,4 +1,13 @@
 .main_img {
   height: 100vh;
   object-fit: cover;
+  user-select: none;
+  -webkit-user-select: none;
+  position: relative;
+  margin-bottom: 0;
+}
+.legend {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
 }
